@@ -1,0 +1,13 @@
+URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/introduction-why-program"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 1
+Programming allows developers to create new tools to perform tasks. This can include cleaning/gathering data, problem solving, and automating tasks.
+Programming can be thought of as defining a set of instructions in a language that can be understood by the computer to allocate resources to perform a given task.
+
+Sample code: available and modified in sample.py
+
+The function of the count allows users to read a document and idenfity the most common word and how many times the appear in a dictionary.
+
+"""
+
