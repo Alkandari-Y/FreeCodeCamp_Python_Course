@@ -1,0 +1,64 @@
+URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/variables-expressions-and-statements"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 2 A
+Constants:
+They are fixed values (inlcudes, numbers, letters, and strings with either single or double quotes) that do not change.
+
+Examples
+print(123)
+print(98.6)
+print('Hello World)
+
+
+Reserved Words:
+
+RESERVED_WORDS = [
+    'False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'if', 'def', 'del', 'elif', 'else', 'except', 'return', 'for', 'from',
+    'global', 'try', 'import', 'in', 'is', 'lamda', 'while', 'not', 'or', 'pass', 'raise', 'finally', 'continue', 'nonlocal', 'with', 'yield'
+]
+
+\"The other foundational notion of any programming language are the reserved words... where python is listening for them and they have special meaning\"
+
+
+Variables:
+
+-A variable is a named place in the memory where a programmer can store data and later retrieve the data using the variable name.
+>Its best practice 
+
+-You can change the contents of a variable in a later statement
+
+x = 12.2
+y = 14
+x =100
+
+-Variable names are chosen by the programmer. There are however rules, and they include:
+> Must start witha letter or underscore
+> Must consist of letters, numbers, and underscores
+> Case sensitve
+
+good_examples_of_names = [
+    'spam', 'eggs', 'spam23', '_speed'
+]
+
+bad_examples_of_names = [
+    '23spam', '#sign', 'var.12'
+]
+
+different = [
+    'spam', 'Spam', 'SPAM'
+]
+
+
+-Assignment Statement:
+>We assign a value to a variable using the assignemnt statmen(=)
+>An assignment statment consists of an expression on the right-hand-side and a variable to store the result
+
+x = 3.9 * x * (1 - x)
+
+
+
+
+
+
+"""

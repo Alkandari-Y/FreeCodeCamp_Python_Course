@@ -31,7 +31,7 @@ print(bigword, bigcount)
 
 
 Python has a series of reserved words which cannot be used as variable names or identifiers. 
-"[P]ython expects that when you use these words that they're going to mean exactly what python expects to mean."
+\"[P]ython expects that when you use these words that they're going to mean exactly what python expects to mean.\"
 
 RESERVED_WORDS = [
     'False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'if', 'def', 'del', 'elif', 'else', 'except', 'return', 'for', 'from',
