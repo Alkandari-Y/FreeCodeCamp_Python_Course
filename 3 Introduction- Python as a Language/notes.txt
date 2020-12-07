@@ -1,0 +1,9 @@
+URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/introduction-python-as-a-language"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 1 C
+Syntax Errors:
+
+Loosely defined as an incorrectly written python code that python cannot understand and perform.
+
+"""

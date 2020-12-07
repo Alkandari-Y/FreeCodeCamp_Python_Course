@@ -1,0 +1,13 @@
+URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/introduction-hardware-architecture"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 1 B
+Generic Computer:
+Input devices / Output devices <<==>> Software[CPU <<==>> Main Memory] <<==>> Secondary Memory
+
+Instructions are stored within the main memory (ram); temporary memory that is fast but stored until the there is no longer anypower going to the main memory. The main memory generally runs software and applications stored in the secondary memory.
+Secondary memory is defined are permanent stored for the computer and can store the intructions/ data. 
+
+Running python code generally translated and run between the main memory and the CPU.
+
+"""

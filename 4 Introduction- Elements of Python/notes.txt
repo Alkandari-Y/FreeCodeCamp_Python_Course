@@ -1,0 +1,73 @@
+URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/introduction-elements-of-python"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 1 D
+Elements of python:
+
+Vocabulary / words : variables and reversed words (chapter 2)
+Sentence structure : valid syntax patterns (chapters 3-5)
+Story structure : contrusting a program for a purpose
+
+sample script (similar to lesson 1 - unmodified from video):
+
+name = raw_input('Enter file: ')
+handle = open(name)
+
+counts = dict()
+for line in handle:
+    words = line.split()
+    for word in words:
+        counts[word] = count.get(word, 0) + 1
+
+bigcount = None
+bigword = None
+
+for word, count in counts.items():
+    if bigcount is None or count > bigcount:
+        bigcount = count
+        bigword = word
+
+print(bigword, bigcount)
+
+
+Python has a series of reserved words which cannot be used as variable names or identifiers. 
+"[P]ython expects that when you use these words that they're going to mean exactly what python expects to mean."
+
+RESERVED_WORDS = [
+    'False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'if', 'def', 'del', 'elif', 'else', 'except', 'return', 'for', 'from',
+    'global', 'try', 'import', 'in', 'is', 'lamda', 'while', 'not', 'or', 'pass', 'raise', 'finally', 'continue', 'nonlocal', 'with', 'yield'
+]
+
+Python Sentences:
+
+x = 2       <----- Assignment Statement
+x = x + 2   <----- Assignment with Expression
+print(x)    <----- Print Statement
+
+variable in that case above         = x
+operator in the case above          = + 'and the' =
+constant in that case above         = 2
+reserved word in that case above    = print()
+
+Python Paragraphs:
+Interactive python is good for experimenting with scripts and programs between 3-4 lines of code
+Larger files should be savd in a file and run from the command line/python
+files are pretty much scripts
+python file suffix is .py (at the end of the file name)
+
+Interactive vs Script:
+Interactive
+pythons responds to code written one line at a time
+
+Script
+A sequence of statments can be written in file and python will execute the statments in the file
+
+
+Program Steps:
+
+A series of introductions or steps to be done in order
+Conditionals may be skipped
+Can repeat a step of groups of steps
+repeated steps can be stored throughout the program to be used as needed
+
+"""
