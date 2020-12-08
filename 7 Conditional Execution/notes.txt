@@ -1,0 +1,29 @@
+URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/conditional-execution"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 3
+Conditional Execution
+
+Python : Meaning
+
+< Less than
+<= Less than or Equal to
+== Equal to
+>= Greater than or Equal to
+> Greater than
+!= Not equal
+
+These comparrison operators are essentially boolean expressions that ask a question to produce a yes or no (True or False) result in which we can use to control program flow.
+They do not affect or change the variables they are comparing
+
+Use 4 spaces instead of tabs to indent within blocks
+
+
+
+
+
+
+
+
+
+"""
