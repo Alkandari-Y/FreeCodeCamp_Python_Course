@@ -2,6 +2,110 @@ URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/pytho
 WEBSITE_NAME = 'FreeCodeCamp'
 
 notes = """Chapter 2 B
+- Expressions
+
+Operator : Operation
+
++ : Addition
+- : Sudtraction
+* : Multiplication
+/ : Division
+** : Power
+% : Remainder or Modulo
+
+- Order of Evaluation (In order of priority)
+Parantheses are always respected
+Exponentation (power)
+Multiplication, Division, Remainder
+Addition and Subtraction
+Left to Right
+
+Suppose we have the following:
+
+x = 1 + 2 ** 3 / 4 * 5
+
+- 2 ** 3 is prioritized
+
+x = 1 + 8 / 4 * 5
+
+- 8 / 4 is prioritized
+
+Since the next order of operation is equal for both * and /, we go from left to right
+
+x = 1 + 2 * 5
+
+- 2 * 5
+
+x = 1 + 10
+
+- 11
+
+
+What Does \'Type\' Mean?
+
+Variables, literals and constants have a "type" in python
+python can identify the difference between integers and strings ( like in cases when using \' + \' in concatenating strings vs when it's used with strings) Remember that types matter, things need to be that same type when using operators
+ddd = 1 + 4
+print(ddd)
+
+eee = 'hello ' + 'there'
+print(eee)
+
+To check type: use  the type() function
+type(eee)
+<class'str'>
+type(ddd)
+<class'int'>
+
+You can also convert data to various types while using type as a function:
+print(float(99) + 100)
+199.0
+
+i = 42
+type(i)
+<class'int'
+
+f = float(i)
+print(f)
+42.0
+
+type(f)
+<class'float'>
+
+NOTE : Intger division will alyways produce a float result
+print(10 / 2)
+5.0
+
+print(99.0 / 100.0)
+0.99
+
+
+NOTE : You can only convert strings that contain numbers to integers
+sval = '123'
+type(sval)
+<class'str'>
+print(sval + 1) -----> Will result in a traceback error
+ival = int(sval)
+type(ival)
+<class'int'>
+print(ival + 1)
+124
+
+nav = 'hello bob'
+niv = int(nav) -----> Will result in a traceback error
+
+
+- User Input
+
+the input() function instructs python to wait and read data from the user and returns a string
+
+nam = input('Who are you? ')
+print('Welcome', nam)
+
+comments start with # and are ignored when executing the script
+
+
+
 
 
 """
