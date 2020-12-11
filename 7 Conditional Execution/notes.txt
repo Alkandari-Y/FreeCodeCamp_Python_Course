@@ -18,8 +18,12 @@ They do not affect or change the variables they are comparing
 
 Use 4 spaces instead of tabs to indent within blocks
 
+One way decisions:
+if statements
 
 
+Two way decisions
+if and else statements
 
 
 

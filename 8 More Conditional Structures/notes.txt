@@ -1,0 +1,54 @@
+URL = "freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/more-conditional-structures"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 3 B
+Conditional Execution
+
+Multi-Way Branch:
+
+Example:
+
+if x < 2:
+    print('small')
+elif x < 10:
+    print('medium')
+else:
+    print('large')
+print('All done')
+
+Ordering of elif and contions matter. If the condition to a question matching two or more ifs, the script will not check the other conditions when getting a confirmed result. The try and expect prevents the code from stopping after encountering issues.
+
+
+Try / Except Structure:
+- These are used to anticipate errors or problems from user input to avoid a traceback.
+
+Surround sections of code with try and except to avoid errors in sensitive sections of code
+
+Example of issue:
+astr = 'Hello Bob'
+istr = int(astr)
+print('First', istr)
+astr = '123'
+istr = int(astr)
+print('Second', istr)
+
+#The code above will result in a traceback error on the first istr value
+
+Example of a Try/Except block:
+astr = 'Hello Bob'
+try:
+    istr = int(astr)
+except:
+    istr = -1
+print('First', istr)
+
+astr = '123'
+try:
+    istr = int(astr)
+except:
+    istr = -1
+print('Second', istr)
+
+When writing try blocks, try to only include the areas of code that could potentially result in errors, once the first issue occurs in a line of code, the following lines will not be attempted as the code turns to the expect block following the initial issue
+
+"""
