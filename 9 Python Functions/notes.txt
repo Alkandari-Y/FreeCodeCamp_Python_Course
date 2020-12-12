@@ -1,0 +1,45 @@
+URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/python-functions"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 4
+
+Store and Reuse functions that will be repeated throughout a project.
+- Define a function, e.g:
+
+def something():
+    print('Hello')
+    print('Fun')
+
+- Call the program function:
+thing()
+
+
+There are two kinds of functions in python:
+- Built-in functions that are provided as part of python, like print() input() type() float() int()
+- Functions that we define and then use
+- We treat the built-in function name as "new" reserved words (i.e., we avoid them as variable names)
+
+
+Function Definition:
+- In python a fucntion is some reusable code that takes arguments as input, does some computation, and then returns a result or results
+- We define a function using the def reserved word
+- We call/invoke the function by using the funciton name, parantheses, and arguments in an expression
+
+Example:
+
+>>>big = max('Hello world')
+>>>print(big)
+w
+
+big ---> is the assignment statement
+max ---> is a built in function that is being called with an argument, in this case it will return the letter with the highest numeric value
+'Hello world' ---> is the argument used in the max function
+w ---> is the result of the max function of the argument
+
+
+
+
+
+
+
+"""
