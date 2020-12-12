@@ -4,7 +4,79 @@ WEBSITE_NAME = 'FreeCodeCamp'
 notes = """Chapter 5 A
 Loops and Iterations:
 
+Repeated Steps:
+- Loops (repeated steps) have iteration variables that change each time through a loop. Often these iteration variables go through a sequence of numbers.
+
+Sample code:
+>>>n = 5
+>>>while n > 0
+        print(n)
+        n = n - 1
+>>>print('Blastoff!')
+>>>print(n)
+
+Output will be
+5
+4
+3
+2
+1
+Blastoff
+0
+
+In the case above the variable n is the iteration variable and the while statement executes until the condtiion n > is no longer true 
+While loops function like an if statement - it's a question that leads to a true or a false answer but unlike an if statement, after it has run the code once, it repeats the question again until it longer can
+The iteration variable limits the number of times a while loop can repeat itself
 
 
+Infinite Loops;
+The code below highlights a poorly constructed loop:
+
+>>>n = 5
+>>>while n > 0:
+    print('Lather')
+    print('Rinse')
+>>>print('Dry off!')
+
+
+Breaking out of a loop:
+- The break statement ends the current loop and jumps to the statement immediately following the loop- It is like a loop test that can happen anywhere in the body of the loop
+
+example:
+>>>while True:
+    line = input('> ')
+    if line == 'done':
+        break
+    print(line)
+>>>print('Done!')
+
+The exmaple above runs the code Infinitely allowing the user to input a string and print it until the user types into the input prompt a string with 'done' to break out of the loop
+
+Finishign an iteration with continue:
+- The continue statement ends the current iteration and jumps to the top of the loop and starts the next iteration
+
+exmaple:
+>>>while True:
+    line = input('> ')
+    if line[0] == '#':
+        continue
+    if line == 'done':
+        break
+    print(line)
+>>>print('Done!')
+
+Output:
+>hello there
+hello there
+># don't print this
+print this!
+>done
+Done!
+
+Indefinite Loops:
+- while loops are called "indefinite loops" because they keep going until a logical condtiion becomes false
+
+Definte Loops:
+- interating over a set of items
 
 """
