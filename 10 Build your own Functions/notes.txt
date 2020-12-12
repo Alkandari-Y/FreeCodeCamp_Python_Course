@@ -1,0 +1,107 @@
+URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/build-your-own-functions"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 4
+Building our Own Functions:
+- Create a new function using the def keyword followed by name of the function and optional parameters in parentheses
+- Indent the body of the function
+- This defines the functioon but does not execute the body of the function
+
+Defintions and Uses:
+- After defining a fuynction, we can call/invoke it as many times as we like
+- This is the store and reuse pattern
+
+Arguments:
+- Is a value passed into the function as the functions input when it has been called/invoked
+- We use arguments so we can direct the function to do different kinds of work when we call it at different times
+- We put the arguments in parantheses after the name of the function
+
+example:
+big = max('Hello world')
+
+In the example above, the string is the argument
+
+Parameters:
+- A parameters is a variable which we use in the function definition. It is a handle that allows the code in the function to access the arguments for a particular invocation
+
+example:
+>>> def greet(lang):
+    if lang == 'es':
+        print('Hola')
+    elif lang == 'fr':
+        print('Bonjour')
+    else:
+        print('Hello')
+>>>greet('en')
+Hello
+>>>greet('es')
+Hola
+>>>greet('fr')
+Bonjour
+
+In the example above:
+lang                            ---> Parameter
+def, if, print, elif, else      ---> definition
+'en', 'es', 'fr'                ---> argument
+
+Note that the lang variable in the exmaple function above, only exits within the life of the function and represents a placeholder, essentially acting as an alias for the arguments when invoked
+
+
+Return Values:
+
+"Often a function will take its arguments, do some computation, and return a value to be used as the value of the function call in the calling expression. The return keyword is used for this."
+
+example:
+>>>def greet():
+        return "Hello"
+
+>>>print(greet(), "Glenn")
+Hello Glenn
+>>>print(greet(), "Sally")
+Hello Sally
+
+
+heres how to rewrite the earlier exmaple:
+>>>def greet(lang):
+        if lang == 'es':
+            return 'Hola'
+        elif lang == 'fr':
+            return 'Bonjour'
+        else:
+            return 'Hello'
+
+>>>print(greet('en'), "Glenn")
+Hello Glenn
+>>>print(greet('es'), "Sally")
+Hola Sally
+>>>print(greet('fr'), "Michael")
+Bonjour Michael
+
+
+Multiple Parameters / Arguments:
+- We can define more than one parameter in the function definition
+- We can also add more arguments when calling the function
+- We match the number and order of arguments and parameters
+
+exmaple:
+>>>def addtwo(a, b):
+        added = a + b
+        return added
+>>>x = added(3, 5)
+>>>print(x)
+8
+
+Void (non-fruitful functions):
+- Void Functions are those that do not return a value
+- Void functions are 'not fruitful'
+
+To function of not to function:
+- Organize your code into paragraphs - capture a complete thought and name it
+- Dont repeat yourself - make it work one and then reuse it
+- If something gets too long or complex, break it up into logical chunks and put those chunks in functions
+- Make a library of common stuff that you do over and over
+
+
+
+
+"""

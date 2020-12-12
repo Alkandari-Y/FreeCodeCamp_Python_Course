@@ -2,7 +2,7 @@ URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/pytho
 WEBSITE_NAME = 'FreeCodeCamp'
 
 notes = """Chapter 4
-
+Python Functions
 Store and Reuse functions that will be repeated throughout a project.
 - Define a function, e.g:
 
@@ -35,11 +35,6 @@ big ---> is the assignment statement
 max ---> is a built in function that is being called with an argument, in this case it will return the letter with the highest numeric value
 'Hello world' ---> is the argument used in the max function
 w ---> is the result of the max function of the argument
-
-
-
-
-
 
 
 """

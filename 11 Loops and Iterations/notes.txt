@@ -1,0 +1,10 @@
+URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/loops-and-iterations"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 5 A
+Loops and Iterations:
+
+
+
+
+"""
