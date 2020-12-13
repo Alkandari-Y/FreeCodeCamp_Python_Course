@@ -1,0 +1,47 @@
+URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/iterations-definite-loops"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 5 B
+Iterations: Definite Loops:
+
+Definite Loops:
+- Quite often have a list of items of the lines in a file - effectively a finite set of things
+- We can write a loop to run the loop once for each of the items in a set using the python for contruct
+- These loops are called "definite loops" because they execute an exact number of times
+- We can say that "definite loops iterate through the members of a set"
+
+Run the script same.py which contains:
+>>>for i in [5, 4, 3, 2, 1]:
+        print(i)
+>>>print('Blastoff!')
+
+Results of the script:
+5
+4
+3
+2
+1
+Blastoff!
+
+A definite loop with strings:
+example from sample_2.py:
+>>>friends = ['Joseph', 'Glenn', 'Sally']
+>>>for friend in friends:
+        print('Happy New Year: ', friend)
+>>>print('Done!')
+
+result:
+Happy New Year:  Joseph
+Happy New Year:  Glenn
+Happy New Year:  Sally
+Done!
+
+We can see that definite loops (for loops) have explicit iteration variables that change each time through a loop. These iteration variables move through the sequence or set
+
+Note: Even though these examples ae simple, the patterns apply to all kinds of loops
+
+
+
+
+
+"""
