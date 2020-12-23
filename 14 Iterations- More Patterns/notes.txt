@@ -1,0 +1,11 @@
+URL = "https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/iterations-loop-idioms"
+WEBSITE_NAME = 'FreeCodeCamp'
+
+notes = """Chapter 5 C
+Iterations: More Loop Patterns:
+
+
+
+
+
+"""

@@ -3,7 +3,7 @@ WEBSITE_NAME = 'FreeCodeCamp'
 
 notes = """Chapter 5 C
 Iterations: Loop Idioms:
-What we do in loops:
+
 
 
 
